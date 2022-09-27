@@ -1,4 +1,4 @@
-body{}
+
 .mainBody{    
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -17,7 +17,7 @@ body{}
 }
 .fontCardImg{
   width: 100%;} 
-.cardTitle{}
+
 .skills{ 
   display: flex;
   flex-direction: row;
@@ -37,18 +37,22 @@ body{}
 .api{
   color: greenyellow;
 }
-.cardText{}
 .buttons{
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
 
-.card3{
-  border-style: double;
+.learnMore
+{ 
+  display: flex;
+  flex-direction: row;
 }
-.fontCardImg3{
-  width: 100%;
-} 
-.cardTitle3{}
-.cardText3{}
-.link3{}
+.buttonLM{
+  margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    padding: 2px;
+}
+.bottomB{
+  padding: 2px;
+}
