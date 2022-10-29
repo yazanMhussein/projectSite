@@ -14,6 +14,7 @@
 
 .card{
   border-style: double;
+  height: fit-content;
 }
 .fontCardImg{
   width: 100%;} 
